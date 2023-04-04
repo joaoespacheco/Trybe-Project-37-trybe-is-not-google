@@ -20,8 +20,15 @@ def remove(instance):
         print('Não há elementos', file=sys.stdout)
     else:
         archive = instance.dequeue()
-        print(f'Arquivo {archive["nome_do_arquivo"]} removido com sucesso')
+        print(
+            f'Arquivo {archive["nome_do_arquivo"]} removido com sucesso',
+            file=sys.stdout
+            )
 
 
 def file_metadata(instance, position):
-    """Aqui irá sua implementação"""
+    try:
+        archive = instance.search(position)
+        print(archive, file=sys.stdout)
+    except IndexError:
+        sys.stderr.write("Posição inválida")
