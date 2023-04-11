@@ -1,13 +1,57 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Trybe Is Not Google
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## 📄 Sobre:
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Neste projeto implementamos um programa que simula um algoritmo de indexação de documentos similar ao do Google, o programa é capaz de identificar ocorrências de termos em arquivos TXT.
+
+O programa possuí dois módulos:
+* Módulo de gerenciamento de arquivos que permite anexar arquivos de texto (formato TXT);
+* Módulo de buscas que permite operar funções de busca sobre os arquivos anexados.
+
+
+</br>
+<details>
+<summary><strong>Desempenho</strong></summary>
+Aprovado com 100% de desempenho em todos os requisitos
+
+![image](https://user-images.githubusercontent.com/99846604/231283009-eacbe422-b4b6-4713-a100-f6b9b7bb96eb.png)
+
+</details>
+</br>
+
+## ⚙️ Execução
+
+Clone o projeto
+
+```
+git clone git@github.com:joaoespacheco/Trybe-Project-37-trybe-is-not-google.git
+```
+
+Navegue até o repositório clonado
+
+```
+cd Trybe-Project-37-trybe-is-not-google
+```
+
+Ative o ambiente virtual e instale as dependências
+
+```
+python3 -m venv .venv && source .venv/bin/activate
+python3 -m pip install -r dev-requirements.txt
+```
+</br>
+
+## 🤹🏽 Habilidades Desenvolvidas:
+* Manipular Pilhas
+* Manipular Deque
+* Manipular Nó & Listas Ligadas
+* Manipular Listas Duplamente Ligadas
+</br>
+
+## 🧰 Ferramentas:
+* Python
+* Pytest
+</br>
+
+## 📝 Desenvolvido por:
+* [João Emanuel Soares Pacheco](https://github.com/joaoespacheco)
